@@ -1,0 +1,201 @@
+@media (max-width: 1024px) {
+
+
+.wrapper{
+    width: 95%;
+}
+
+body{
+    font-family: var(--font-family-main);
+    color: var(--main-color);
+}
+
+header{
+    color: var(--white-color);
+}
+
+/* Секция  heding */
+
+.heding{
+
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+.blocks__heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info__heading{
+    align-items: center;
+}
+
+.phone-grhWork__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.phone{
+    font-size: var(--font-size-light);
+
+}
+
+.grhWork{
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-light);
+    line-height: 150%;
+}
+
+.block-icon__basket-buy img{
+    width: 40%;
+}
+
+/* Секция heading-content */
+
+.heading-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.block-text__blocks{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-shadow: 3px 3px 0px #000000;
+}
+
+.block-text__blocks h1{
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-h2);
+
+}
+
+.block-text__blocks h4{
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-medium);
+}
+
+/* Секция pizza */
+.pizza{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.text-block__flex-item {
+    padding: 15px 15px;
+}
+
+.text-block__flex-item h4{
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-medium);
+    line-height: 143%;
+}
+
+/* Секция  about-us*/
+.about-us{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.blocks__about-us{
+    gap: 40px;
+}
+
+
+.flex-item__about-us{
+    width: 33%;
+}
+
+.flex-item__about-us img{
+    width: 80px;
+    height: 80px;
+
+}
+
+/* Секция set-reviews */
+
+.set-reviews{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.flex-item__set-reviews{
+    width: auto;
+}
+.flex-item-img__set-reviews{
+    display: none;
+}
+
+.flex-item__set-reviews h2{
+    text-align: center;
+}
+
+
+.list-reasons li{
+    font-size: var(--font-size-light);
+}
+
+
+.button__set-review{
+    margin-left: auto;
+}
+
+.modal-window {
+    overflow: auto;
+}
+
+
+/* Секция reviews */
+
+.reviews{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.itcss{
+    width: 90%;
+}
+
+.blocks__reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.block-slider__reviews{
+    padding-top: 35px;
+}
+
+.flex-conteiner__text h4{
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-height);
+}
+
+/* Стили кнопок слайдера*/
+.btn-wrapper{
+    padding-top: 30px;
+}
+
+
+/* Секция contacts */
+
+.flex-container__contacts{
+    padding-top: 50px;
+    gap: 50px;
+}
+
+
+.flex-container__tel-post p{
+    font-size: var(--font-size-light);
+}
+
+.flex-container__tel-post a{
+    font-size: var(--font-size-light);
+}
+
+
+
+}
